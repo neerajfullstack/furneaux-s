@@ -76,3 +76,40 @@ header nav a {
   /* By using a percentage width our image width will be relative to the size of parent container  */
   width: 33.33333%;
 }
+
+/* Testimonials */
+
+.quotes {
+  overflow: hidden;
+}
+
+.quotes div {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 50px 20px 40px 20px;
+}
+
+.quotes div:first-child {
+  background-color: #f7f1ee;
+}
+
+.quotes img {
+  width: 75px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.quotes blockquote {
+  font-family: 'David Libre';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  max-width: 400px;
+  margin: 15px auto 5px auto;
+}
+
+.quotes p {
+  font-size: 18px;
+  margin-top: 6px;
+}
