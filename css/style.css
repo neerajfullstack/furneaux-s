@@ -64,3 +64,15 @@ header nav a {
   max-width: 400px;
   margin: 0 auto;
 }
+
+/* Flowers */
+
+.flowers {
+  overflow: hidden;
+}
+
+.flowers img {
+  float: left;
+  /* By using a percentage width our image width will be relative to the size of parent container  */
+  width: 33.33333%;
+}
