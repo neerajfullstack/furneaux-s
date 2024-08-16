@@ -87,7 +87,8 @@ header nav a {
   float: left;
   width: 50%;
   text-align: center;
-  padding: 50px 20px 40px 20px;
+  padding: 50px 18px 40px 20px;
+  height: 100%;
 }
 
 .quotes div:first-child {
@@ -102,7 +103,7 @@ header nav a {
 
 .quotes blockquote {
   font-family: 'David Libre';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.15;
   max-width: 400px;
@@ -154,9 +155,12 @@ footer p {
   text-transform: capitalize;
 }
 
-/* Breakpoints */
+/* Breakpoint: Tablet */
 
 @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
   .hero {
     padding-top: 88px;
     padding-bottom: 88px;
@@ -170,14 +174,15 @@ footer p {
   .quotes div {
     float: none;
     width: auto;
+    padding: 30px 30px 40px 30px;
   }
 
   .quotes blockquote {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .quotes p {
-    font-size: 16px;
+    display: none;
   }
   .chair {
     height: 320px;
